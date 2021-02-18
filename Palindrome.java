@@ -12,6 +12,7 @@ public class Palindrome {
         return isPal;
     }
     public static void main(String [] args){
+        System.out.println("Please enter your word to test if it is Palindrome or not");
         Scanner sc = new Scanner(System.in);
         String input= sc.next();
         System.out.println(isPalindrome(input)?"YES":"NO");
